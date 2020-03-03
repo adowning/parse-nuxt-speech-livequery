@@ -1,0 +1,37 @@
+{
+  "name": "parse-nuxt-speech",
+  "version": "1.0.0",
+  "description": "My astounding Nuxt.js project",
+  "author": "wahengchang",
+  "private": true,
+  "scripts": {
+    "edev": "nuxtron",
+    "dev": "cross-env nodemon server/index.ts",
+    "electron": "electron dist/index.js",
+    "start": "cross-env NODE_ENV=production ts-node server/index.ts",
+    "devo": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "starto": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build",
+    "kill:3000": "kill $(lsof -t -i:3000)"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "cross-env": "^5.2.0",
+    "electron-serve": "^0.4.1",
+    "express": "^4.16.4",
+    "nuxt": "^2.0.0",
+    "parse-server": "^3.10.0",
+    "sitemap": "^5.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^0.6.4",
+    "@nuxt/typescript-build": "^0.6.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@types/parse": "^2.10.17",
+    "electron": "^8.0.3",
+    "nodemon": "^1.18.9",
+    "ts-node": "^8.6.2"
+  }
+}
