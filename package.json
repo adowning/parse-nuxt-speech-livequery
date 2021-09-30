@@ -22,7 +22,7 @@
     "electron-serve": "^0.4.1",
     "express": "^4.16.4",
     "nuxt": "^2.0.0",
-    "parse-server": "^3.10.0",
+    "parse-server": "^4.10.4",
     "sitemap": "^5.1.0"
   },
   "devDependencies": {
