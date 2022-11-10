@@ -30,7 +30,7 @@
     "@nuxt/typescript-build": "^0.6.0",
     "@nuxtjs/dotenv": "^1.4.1",
     "@types/parse": "^2.10.17",
-    "electron": "^8.0.3",
+    "electron": "^18.3.7",
     "nodemon": "^1.18.9",
     "ts-node": "^8.6.2"
   }
